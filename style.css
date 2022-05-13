@@ -18,20 +18,17 @@ body{
     align-items: center;
 
 }
-
 .logo{
     background-color:red;
     padding:15px;
 }
-
 .menu{
     background-color: white;
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 500px;
     padding:15px 2px;
 }
-
 .menu_itens{
     color:tomato;
 }
@@ -41,16 +38,16 @@ body{
         flex-direction:column;
         padding:5px;
     }
-   
+    .logo{
+        margin-bottom:5px;
+    }
     .menu{
         flex-direction: column;
         text-align: center;
         width:80%;
     }
-
     .menu_itens{
-        /* background-color:black; */
         padding: 5px;
-        margin-top: 4px;
+        margin-top: 5px;
     }
 }
